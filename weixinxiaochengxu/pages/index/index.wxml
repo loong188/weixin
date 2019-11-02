@@ -1,0 +1,262 @@
+<view >
+    <image class="top-item"  src="https://attachment-center.boxuegu.com/data/picture/online/2019/09/04/14/a8759cfb1aee4ea6819a6ba13e425412.jpg" />
+</view>
+<view class="icon-list">
+    <view class="icon">
+        <image class="icon" src="https://m.boxuegu.com/web/images/index/course.png" />
+        <text >
+            就业课
+        </text>
+    </view>
+    <view>
+       <image class="icon" src="https://m.boxuegu.com/web/images/index/mircoCourse.png" />
+        <text >
+            提升课
+        </text>
+    </view>
+    <view>
+    <image class="icon" src="https://m.boxuegu.com/web/images/index/freeMicroCourse.png" />
+        <text >
+            免费课
+        </text>
+    </view>
+    <view>
+        <image class="icon" src="https://m.boxuegu.com/web/images/index/courseType.png" />
+        <text >
+            课程分类
+        </text>
+    </view>
+</view>
+<view class="list">
+    <view class="list-top">
+            <view class="iconfont icon-shugang list-top1">
+                就业课     
+            </view>
+        <view class="list-top2">更多</view>
+    </view>
+    <view class="list-item">
+        <view class="list-item-list">
+            <image src="https://file.boxuegu.com/f6c878722f394a7c9bd12c0319f00037.png" />
+        </view>
+        <view class="list-item-right">
+            <view>JavaEE</view>
+            <view class="list-item-right-moddle">JavaEE是一个开放的、基于标准的平台</view>
+            <view class="list-item-right-bottom">
+                <view>1784人学习</view>
+                <view style="color:red">￥14980.00</view>
+            </view>
+        </view>
+    </view>
+    <view class="list-item">
+        <view class="list-item-list">
+            <image src="https://file.boxuegu.com/e19c53c6c1fa468aad6e11cb61d81b9a.png" />
+        </view>
+        <view class="list-item-right">
+            <view>Python+人工智能</view>
+            <view class="list-item-right-moddle">最有前景的开发职位</view>
+            <view class="list-item-right-bottom">
+                <view>877人学习</view>
+                <view style="color:red">￥14980.00</view>
+            </view>
+        </view>
+    </view>
+    <view class="list-item">
+        <view class="list-item-list">
+            <image src="https://file.boxuegu.com/3940be1c755a44eeb8e2e0aaf984756e.png" />
+        </view>
+        <view class="list-item-right">
+            <view>前端与移动开发</view>
+            <view class="list-item-right-moddle">用户界面的构筑者</view>
+            <view class="list-item-right-bottom">
+                <view>1230人学习</view>
+                <view style="color:red">￥14980.00</view>
+            </view>
+        </view>
+    </view>
+    <view class="list-item">
+        <view class="list-item-list">
+            <image src="https://file.boxuegu.com/6c0ffe21a06d421d90be8a0061c14c1a.png" />
+        </view>
+        <view class="list-item-right">
+            <view>软件测试</view>
+ 
+            <view class="list-item-right-bottom">
+                <view>189人学习</view>
+                <view style="color:red" class="list-item-right-bottom1">￥12980.00</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="foot-bottom">
+    <view class="list-top">
+            <view class="iconfont icon-shugang list-top1">
+                推荐课程     
+            </view>
+        <view class="list-top2">更多</view>
+    </view>
+    <view class="bottom-item">
+        <view class="bottom-item1">
+            <image src="https://file.boxuegu.com/e6432db4d06c42b9aca7aede22ba9437.jpg"/>
+            <view >
+                所有人都能学的数据分...
+                <view class="bottom-item3">
+                    <view >
+                       710人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">￥399.00</view>
+                </view>
+            </view>
+        </view>
+         <view class="bottom-item2">
+            <image src="https://file.boxuegu.com/989b9bd2a12d471b8e7579b7182d08b6.png"/>
+            <view >
+                MySQL数据库性能优化...
+                <view class="bottom-item4">
+                    <view >
+                       107人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">￥199.00</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="bottom-item6">
+        <view class="bottom-item1">
+            <image src="https://file.boxuegu.com/df25a3e7031a48d39a896d4e38d3d3d5.png"/>
+            <view >
+                Java并发篇编程原理精讲...
+                <view class="bottom-item3">
+                    <view >
+                       107人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">￥199.00</view>
+                </view>
+            </view>
+        </view>
+         <view class="bottom-item2">
+            <image src="https://file.boxuegu.com/854b60de9d6742dbb29a47370b7c8650.png"/>
+            <view >
+                GAN生成对抗网络入门到...
+                <view class="bottom-item4">
+                    <view >
+                       183人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">￥199.00</view>
+                </view>
+            </view>
+        </view>
+    </view>
+<view class="bottom-item6">
+        <view class="bottom-item1">
+            <image src="https://file.boxuegu.com/746a8e78655a4b3ca97ccad5390fbc4b.png"/>
+            <view >
+                基于Kylin搞定千亿级电...
+                <view class="bottom-item3">
+                    <view >
+                       187人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">￥199.00</view>
+                </view>
+            </view>
+        </view>
+         <view class="bottom-item2">
+            <image src="https://file.boxuegu.com/90bb08a6bacd49baa5492c5eaa94c060.jpg"/>
+            <view >
+                游戏AI实战课一深一浅...
+                <view class="bottom-item4">
+                    <view >
+                       109人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">￥199.00</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="foot-bottom">
+    <view class="list-top">
+            <view class="iconfont icon-shugang list-top1">
+                免费课     
+            </view>
+        <view class="list-top2">更多</view>
+    </view>
+    <view class="bottom-item">
+        <view class="bottom-item1">
+            <image src="https://file.boxuegu.com/74773be265b840b3af9da88f6f42841d.jpg"/>
+            <view >
+                两小时用Go语言实现人脸...
+                <view class="bottom-item3">
+                    <view >
+                       771人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">免费</view>
+                </view>
+            </view>
+        </view>
+         <view class="bottom-item2">
+            <image src="https://file.boxuegu.com/7e1535f414a64d3fa4d60e7c8a84cca3.jpg"/>
+            <view >
+                JavaEE在线就业班2.0...
+                <view class="bottom-item4">
+                    <view >
+                       318人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">免费</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="bottom-item6">
+        <view class="bottom-item1">
+            <image src="https://file.boxuegu.com/3ed09c2ae4ea4542add4ac8b098c9535.jpg"/>
+            <view >
+                Axure基础课
+                <view class="bottom-item3">
+                    <view >
+                       454人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">免费</view>
+                </view>
+            </view>
+        </view>
+         <view class="bottom-item2">
+            <image src="https://file.boxuegu.com/6a0330c2237b4ed3af2a2703cc2f1419.jpg"/>
+            <view >
+                产品经理公开课
+                <view class="bottom-item4">
+                    <view >
+                       369人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">免费</view>
+                </view>
+            </view>
+        </view>
+    </view>
+<view class="bottom-item6">
+        <view class="bottom-item1">
+            <image src="https://file.boxuegu.com/ccc47386e2b048658f944d0db943321c.jpg"/>
+            <view >
+                短视屏创造营探店精品...
+                <view class="bottom-item3">
+                    <view >
+                       437人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">免费</view>
+                </view>
+            </view>
+        </view>
+         <view class="bottom-item2">
+            <image src="https://file.boxuegu.com/49b20b70e42e446cafc60f9c6fd98d84.jpg"/>
+            <view >
+                剪辑大神50招
+                <view class="bottom-item4">
+                    <view >
+                       650人学习 
+                    </view>
+                    <view style="color:red" class="bottom-foot">免费</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view></view>
+</view>
