@@ -1,0 +1,12 @@
+<template name="details">
+    <view class="detail-user5">
+    <view class="detail-user2">
+        <view>
+            <image class="detail-user1" src="{{ item.img5 }}" />
+        </view>
+        <view class="detail-user4">{{ item.mingzi }}</view>
+        <view class="detail-user3 ">{{ item.data1 }}</view>
+    </view>
+    <view>{{ item.data2 }}</view>
+    </view>
+</template>

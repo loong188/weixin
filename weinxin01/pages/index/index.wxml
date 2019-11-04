@@ -1,0 +1,41 @@
+<import src="/template/templ/user.wxml"/>
+   <scroll-view class="user-mans" 
+ scroll-y="{{true}}"
+ scroll-top="{{ topNum }}"
+ scroll-with-animation="{{true}}"
+ bindscroll="scroll">
+
+ 
+    <view class="top" >
+    <view class="top-man">
+        <view style="color:#666666">
+           点击筛选
+        </view>
+        <image class="image1" src="https://img11.360buyimg.com/jdphoto/s90x28_jfs/t1/50544/35/13798/15234/5da7cf8cEf7e5ea76/8a9fad8c8aef6121.png"/> 
+        <view style="color:#666666">
+           活动商品 
+        </view>     
+    </view>
+</view>
+
+<view class="man">
+    <block wx:for="{{ user }}" wx:key="user">
+        <navigator url="/pages/detail/detail" hover-class="none" open-type="navigate">  
+            <template is="user" data="{{ item }}" />
+        </navigator>
+       
+        
+</block>
+
+</view>
+
+</scroll-view>
+
+<view bind:tap="goHome" class="{{ show }}">
+    <view class="iconfont icon-huidaodingbu"></view>
+</view>
+<view class="iconfont icon-gouwuche"></view>
+<view class="iconfont icon-caidan"></view>
+
+
+

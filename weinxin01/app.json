@@ -1,0 +1,43 @@
+{
+    "pages": [
+        "pages/index/index",
+
+        "pages/detail/detail",
+        "pages/ping/ping",
+        "pages/fenxiang/fenxiang"
+
+
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "京东",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#B8B8B8",
+        "selectedColor": "#1AFA29",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/shouye.png",
+                "selectedIconPath": "/images/shouye1.png"
+            },
+            {
+                "pagePath": "pages/ping/ping",
+                "text": "添加评论",
+                "iconPath": "/images/tianjiapinglun.png",
+                "selectedIconPath": "/images/tianjiapinglun1.png"
+            }, {
+                "pagePath": "pages/fenxiang/fenxiang",
+                "text": "分享",
+                "iconPath": "/images/fenxiang.png",
+                "selectedIconPath": "/images/fenxiang1.png"
+            }
+        ]
+    },
+
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,91 @@
+<template name="user">
+    <view class="user-left1">
+        <view><image class="img" src="{{ item.img }}" >
+
+        </image>
+        </view>
+        <view class="user-man">
+            <view class="user-top1">
+                <block wx:if="{{ item.imgs !=null }}">
+                    <view >                    
+                    <image class="img1" src="{{ item.img1 }}" />
+                    <image class="img11" src="{{ item.imgs }}"/>       
+                    {{ item.top1 }} 
+                </view>
+                </block>
+                <block wx:else>
+                     <view >                    
+                    <image class="img1" src="{{ item.img1 }}" />      
+                    {{ item.top1 }} 
+                </view>
+                </block>
+            </view>
+            <block wx:if="{{item.moddle14!=null&&item.moddle15!=null}}">
+               <view class="user-moddle1" >
+                <view class="user-moddle11">
+                    {{ item.moddle1 }}
+                </view>
+                {{ item.moddle12 }}
+                <view class="user-moddle13">{{ item.moddle13 }}</view>
+                <view class="user-moddle14">
+                    {{ item.moddle14 }}
+                </view>
+                <view class="user-moddle14">
+                    {{ item.moddle15 }}
+                </view>
+                </view> 
+            </block>
+            <block wx:elif="{{item.moddle14!=null}}">
+               <view class="user-moddle1" >
+                <view class="user-moddle11">
+                    {{ item.moddle1 }}
+                </view>
+                {{ item.moddle12 }}
+                <view class="user-moddle13">{{ item.moddle13 }}</view>
+                <view class="user-moddle14">
+                    {{ item.moddle14 }}
+                </view>
+                </view> 
+            </block>
+            <block wx:else>
+                <view class="user-moddle1" >
+                <view class="user-moddle11">
+                    {{ item.moddle1 }}
+                </view>
+                {{ item.moddle12 }}
+                <view class="user-moddle13">{{ item.moddle13 }}</view>
+                </view>
+            </block>
+            <block wx:if="{{item.moddle22!=null}}">
+                <view class="user-model2">
+                <view>
+                    <image class="img2" src="{{ item.img2 }}" />   
+                </view>
+                <view class="user-moddle22">
+                    {{ item.moddle22 }}
+                </view>
+                <view>
+                    {{ item.moddle2 }}
+                </view>
+            </view >
+            </block>
+            <block wx:else>
+                <view class="user-model2">
+                <view>
+                    <image class="img2" src="{{ item.img2 }}" />   
+                </view>
+                <view>
+                    {{ item.moddle2 }}
+                </view>
+            </view >
+            </block>
+            <view class="user-bottom2">
+                <view>{{ item.bottom1 }}</view>
+                <view>
+                    <image class="img3" src="{{ item.img3 }}" /> 
+                </view>
+            </view>
+            
+        </view>
+    </view>
+</template>

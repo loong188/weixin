@@ -1,0 +1,84 @@
+<import src="/template/templ/detail.wxml"/>
+<view class="man">
+   <swiper autoplay="{{true}}" circular="{{true}}" indicator-dots="{{ true }}" class="detail-top1">
+       <block wx:for="{{ imgs }}" wx:key="items">
+           <swiper-item >
+               <image src="{{ item }}"  class="detail-top2" />
+           </swiper-item>
+       </block>
+   </swiper> 
+   <image class="detail-top3" src="https://img30.360buyimg.com/jdphoto/jfs/t1/77621/40/13428/113573/5da86d3cE9a189ee2/3d6d245ea393c962.png!q70.webp" />
+    <view class="main1">
+
+    <view class="detail-top4" >
+                <view class="detail-top5">
+                    ￥
+                </view>
+                76.
+                <view class="detail-top6">90</view>
+                <!-- <view class="iconfont icon-shoucang">
+                    收藏
+                </view> -->
+                </view> 
+                <view class="detail-top8">
+                    <image class="detail-top9" src="https://img30.360buyimg.com/jdphoto/s102x28_jfs/t1/21715/30/300/2368/5c08cfc0E76d331d3/1b55766b4030f270.png"/>
+                    <view>
+                        超市尖货轮番抢   
+                    </view>
+                </view>
+    <view class="detail-top10">
+        <view >                    
+            <image class="img1" src="https://img30.360buyimg.com/jdphoto/jfs/t1/75776/31/13305/900/5da86d4bEcc4c90de/e1d7f9fd9583fa14.png" />
+            <image class="img2" src="https://img13.360buyimg.com/jdphoto/s48x28_jfs/t1/45124/16/1339/1092/5cf0a1ecE146f0776/df59d583faa7cfb9.png"/>       
+             越南进口 中原G7三合一速溶咖啡1600g (16*克*100条) 越南本土越文版包装
+        </view>
+    </view>
+    <view class="detail-top11">
+        【在意的美食】 冲饮速食超级爆款限时满2件享9折优惠,精选爆款满2件打8折满3件打7折,更多好物低至满99减50！
+    </view>
+            
+    </view>
+    <scroll-view class="detail-man" 
+ scroll-y="{{true}}"
+ scroll-top="{{ topNum }}"
+ scroll-with-animation="{{true}}"
+ bindscroll="scroll">
+    <view class="detail-man">
+        <view class="detail-main1">
+            <view class="detail-main4">
+             <view >评价</view>
+            <view class="detail-main2">好评 99%</view>
+            </view>
+            
+            <view class="detail-main3">共 12万+ 条 ></view>
+        </view>
+        <view class="detail-main5">
+            <view class="detail-main7">美味可口（218）</view>
+            <view class="detail-main7">份量充足（94）</view>
+            <view class="detail-main7">新鲜味美（28）</view>
+        </view>
+        <view class="detail-main6">
+            <view class="detail-main7">方便实用（21）</view>
+            <view class="detail-main7">味道适宜（21）</view>
+            <view class="detail-main7">奶香四溢（13）</view>
+        </view>
+        <view class="detail-main8">
+            <block wx:for="{{ details }}" wx:key="details">
+  
+            <template is="details" data="{{ item }}" />
+       
+        
+           </block>
+        </view>
+    </view>
+   </scroll-view>
+</view>
+
+ <view bind:tap="goHome" class="{{ show }}">
+    <view class="iconfont icon-huidaodingbu"></view>
+</view>
+<view class="detail-bottom2">
+    <image class="detail-bottom2"  src="https://shop.loong18.com/fenxiang.png" />
+        <button open-type="share" type="primary" class="detail-bottom3">分享</button>
+
+</view>

@@ -1,0 +1,180 @@
+@import '/template/style/css1.wxss';
+.top {
+    width: 750rpx;
+    height: 70rpx;
+    border-top: 1px, solid, #E5E5E5;
+}
+
+.image1 {
+    width: 90rpx;
+    height: 30rpx;
+}
+
+.top-man {
+    display: flex;
+    background: #FCEDEB;
+    border-radius: 5px;
+    width: 720rpx;
+    height: 50rpx;
+    padding-top: 10px;
+    margin: 10px;
+    font-size: 12px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.man {
+    margin-top: 10px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.user-left1 {
+    /* background: red; */
+    display: flex;
+    width: 750rpx;
+    height: 260rpx;
+    padding-top: 20px;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.user-top1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    justify-content: flex-start;
+}
+
+.img {
+    width: 240rpx;
+    height: 240rpx;
+}
+
+.img1 {
+    width: 75rpx;
+    height: 30rpx;
+}
+
+.img11 {
+    margin-left: 2px;
+    width: 51px;
+    height: 15px;
+}
+
+.user-moddle1 {
+    font-size: 14px;
+    color: #E93B3D;
+    display: flex;
+    flex-direction: row;
+}
+
+.user-model2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #A8A8A9;
+}
+
+.user-moddle11 {
+    padding-top: 4px;
+    font-size: 10px;
+}
+
+.user-moddle13 {
+    padding-top: 4px;
+    font-size: 10px;
+}
+
+.user-moddle14 {
+    font-size: 10px;
+    margin-top: 3px;
+    margin-left: 3px;
+    height: 25rpx;
+    border: 1px solid #E93B3D;
+}
+
+.user-moddle22 {
+    font-size: 10px;
+    color: #ED6768;
+    margin-top: 1px;
+    margin-left: 5px;
+    height: 25rpx;
+    background: #FDF0F0;
+    border-radius: 2px;
+    border: 1px solid rgba(200, 200, 200, 0);
+}
+
+.user-man {
+    border-bottom: 1px solid #A8A8A9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-bottom2 {
+    display: flex;
+    font-size: 12px;
+    color: #A8A8A9;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img2 {
+    width: 50rpx;
+    height: 30rpx;
+}
+
+.img3 {
+    width: 45rpx;
+    height: 45rpx;
+}
+
+.user-mans {
+    position: relative;
+    height: 1000rpx;
+}
+
+.icon-huidaodingbu {
+    position: absolute;
+    /* background: red; */
+    color: #A1A1A1;
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 35px;
+    border: 1px solid #A1A1A1;
+    right: 0px;
+    bottom: 200px;
+}
+
+.hide {
+    opacity: 0;
+    transition: all .6s;
+}
+
+.show {
+    opacity: 1px;
+    transition: all .6s;
+}
+
+.icon-gouwuche {
+    position: absolute;
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 35px;
+    color: #A1A1A1;
+    right: 0px;
+    bottom: 320px;
+    border: 1px solid #A1A1A1;
+}
+
+.icon-caidan {
+    position: absolute;
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 35px;
+    color: #A1A1A1;
+    right: 0px;
+    bottom: 260px;
+    border: 1px solid #A1A1A1;
+}
